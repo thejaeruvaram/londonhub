@@ -1,8 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
+  
 int main()
 {
-	int a,b,add;
-	a=10;
-	b=20;
-	add=a+b;
-	printf("addition of two numbers",add)
+    int A, B, sum = 0;
+  
+    // Ask user to enter the two numbers
+    printf("Enter two numbers A and B : \n");
+  
+    // Read two numbers from the user || A = 2, B = 3
+    scanf("%d%d", &A, &B);
+  
+    // Calculate the addition of A and B
+    // using '+' operator
+    sum = A + B;
+  
+    // Print the sum
+    printf("Sum of A and B is: %d", sum);
+  
+    return 0;
+}
+
+
+
+	
+
+
+
